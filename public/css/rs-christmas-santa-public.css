@@ -1,0 +1,182 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ * hi
+ */
+
+ 
+.rs_pop-up-class-right{
+    position: fixed;
+    right: 10px;
+    z-index:8001;
+}
+.rs_pop-up-class-left{
+    position: fixed;
+    left: 10px;
+    z-index:8001;
+}
+.rs_pop-up-bottom-m-music {
+    bottom: 98px;
+}
+.rs_pop-up-bottom-m {
+    bottom: 5px;
+}
+.rs_pop-up-close{
+    position: absolute;
+    height: auto;
+    width: 60px;
+    top: 0px;
+    right: 0px;
+}
+.rs_pop-up-close img {
+    width: 70%;
+    height: 100%
+}
+.rs_pop-up-img{
+    width: auto;
+    height: 80%;
+}
+#rs_audio_div.rs_audio{
+    position: fixed;
+    height: 130px;
+    width: 100%;
+    bottom: 5px;
+    z-index: 8001;
+}
+#rs_audio_div .rs_audio-close-left{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    top: 0px;
+    left: 20px;
+}
+#rs_audio_div .rs_audio-close-right{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    top: 0px;
+    right: 20px;
+}
+#rs_audio_div .rs_audio-close-left img{
+    position:absolute;
+    width: 40px;
+    height: 100%;
+}
+#rs_audio_div .rs_audio-close-right img{
+    position:absolute;
+    width: 40px;
+    height: 100%;
+    right: 30px;
+}
+#rs_audio_div .rs_audio-nav{
+    background-color: rgb(250,250,250);
+    width: 1000px;
+    padding-bottom: 3px;
+    margin: 2px auto;
+}
+#rs_audio_div #rs_defaultBar{
+    position: relative;
+    width: 1000px;
+    height: 10px;
+    background-color: #606060;
+}
+#rs_audio_div #rs_progressBar{
+    position: absolute;
+    height: 10px;
+    width: 0px;
+    background-color: #2196F3;
+}
+#rs_audio_div #rs_playButton{
+
+    background-color: rgb(250,250,250);
+    border: none;
+    height: 32px;
+    width: 32px;
+    background-image: url(../images/audio/play-32.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#rs_audio_div #rs_playButton:active{
+    position: relative;
+    top: 2px;
+}
+#rs_audio_div .rs_audio-controls{
+    width: 100%;
+    height: 45%;
+}
+.rs_flying-santa{
+    position: fixed;
+    left: 20px;
+    top: 30%;
+    animation-duration: 10s;
+    z-index: 10000;
+    animation-iteration-count: infinite;
+}
+.rs_count-down-main{
+    float: left;
+    padding-right: 10px;
+    margin: 3px;
+}
+.rs_w-count-down-main{
+    padding-right: 10px;
+    margin: 3px;
+}
+.rs_cr-count-down{
+    position: relative;
+    margin: 0 auto;
+    height: 201px;
+    width: 195px;
+    text-align: center;
+}
+.rs_cr-count-down img{
+    width: 100%;
+    height: 100%;
+    /*position: relative;*/
+
+}
+.rs_cr-count-down-content{
+    position: absolute;
+    top: 65%;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.rs_cr-count-down-content p{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    line-height: 110% !important;
+    font-weight: 700 !important;
+    text-shadow: -1px 2px 6px #020202 !important;
+}
+.rs_cr-count-down-content strong{
+    color: #ff3434;
+    font-size: 30px;
+    padding: 25px 0px;
+    line-height: 27px;
+}
+/*------------------------ responsive css ---------------------*/
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+    #rs_sticky{
+        width:250%;
+    }
+    .rs_pop-up-close{
+        height: auto;
+        width: 30px;
+    }
+    #rs_audio_div .rs_audio-close-left{
+        width: 25px;
+        left: 0px;
+    }
+    .rs_flying-santa {
+        right: 46%;
+        width: 50%;
+    }
+    .rs_pop-up-img {
+        width: 60%;
+        height: 80%;
+    }
+}
+  

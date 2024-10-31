@@ -1,0 +1,231 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .ss_left_col .m0{
+    margin: 0;
+ }
+ .ss_left_col .d-block{
+    display: block !important;
+ }
+ .ss_left_col .form-table th{
+    padding: 0px;
+    width: 0px;
+    display: none;
+}
+.ss_left_col .form-table td{
+    padding: 0;
+    border-bottom: 1px solid #eae9e9;
+}
+.ss_left_col .form-table td input[type=text],.ss_left_col .form-table td select,.ss_left_col input[type=checkbox],.ss_left_col input[type=radio]{
+    border: 1px solid #226c5e52;
+}
+
+.ss_left_col .form-table td p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.ss_left_col .example-class td > div{
+    display: flex;
+    align-items: center;
+}
+.ss_left_col .submit input{
+    background: #226c5e;
+    color: #fff;
+    border-color: #226c5e;
+    padding: 8px 20px;
+    height: auto;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0;
+    border-bottom: 4px solid #bc1d2b;
+    box-shadow: none;
+    margin-top: 20px;
+}
+.ss_left_col .form-table td
+.rs_popup-display{
+    width: 50%;
+    display: inline-block;
+    margin: 15px auto;
+}
+ 
+.ss_left_col .c-label{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    padding: 10px 0px;
+    background: #fff; 
+    margin-right: 1%;
+}
+.ss_left_col .c-label h3{
+    padding-left: 10px;
+}
+.ss_left_col .c-value{
+    width: 69%;
+    display: inline-block;
+    float: left; 
+}
+.ss_left_col .w-value{
+    width: 100%;
+}
+.ss_left_col .rs_count-down-display{
+    width: 50%;
+    display: inline-block;;
+    float: left;
+}
+.ss_left_col .rs_count-down-image{
+    width: 70%!important;
+}
+.ss_left_col .c-value img{
+    width: 100%;
+    margin:25px auto;
+}
+.ss_left_col .c-value ul li{
+    width: 50%;
+    display: inline-block;
+}
+.rs_pop-image{
+    width: 30%!important;
+}
+.ss_left_col .c-label h3{
+    margin: 0px;
+    font-size: 16px;
+}
+.ss_left_col .fall-label{
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+}
+.ss_left_col .fall-input{
+    width: 30%;
+}
+ 
+.ss_left_col label {
+    padding: 5px;
+}
+.ss_left_col input[type="text"],
+.ss_left_col input[type="checkbox"],
+.ss_left_col select {
+    color: #3e3e3e;
+    border-radius: 3px;
+   
+}
+/*ss salim*/
+.nav-tab-wrapper{
+   border-color: #226c5e !important;
+}
+.nav-tab-wrapper a{ 
+    margin-left: 1px;
+    background: #226c5e;
+    color: #fff;
+    border-color: #226c5e;
+    border-bottom: 3px solid #226c5e;
+}
+.nav-tab-wrapper a:first-child{
+    margin-left:0;
+}
+
+.nav-tab-wrapper a:hover, .nav-tab-wrapper a.nav-tab-active{
+   background: #bc1d2b;
+   color: #fff;
+   border-color: #bc1d2b;
+   border-bottom: 3px solid #226c5e;
+}
+.ss_col{
+    width: 100%;
+    overflow: hidden;
+
+}
+.ss_left_col{
+    float: left;
+    width: 73%;
+    margin-right: 2%;
+    position: relative;
+}
+.ss_right_col{
+    float: left;
+    width: 25%;
+    background: #fff; 
+    color:#333;
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+}
+.ss_right_content{
+    padding: 30px;
+}
+.logo_top{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo_top img{
+    max-width: 100%;
+}
+.c-label.update_level {
+    min-width: 100%;
+}
+ 
+.ss_left_col .form-table td #rs_popup-display-chirsmas, .ss_left_col .form-table td #rs_christmas_santa_countdown_type{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:start;
+}
+.ss_left_col .form-table td .rs_popup-display{
+    width: 32.3%;
+    position: relative;  
+    border: 1px solid #327b6e;
+    display: block;
+    margin-bottom: 10px; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ss_left_col .form-table td .rs_popup-display input[type="radio"]{
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.ss_left_col .form-table td .rs_popup-display label{
+    padding: 0;
+}
+.ss_left_col .form-table td .rs_popup-display span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background:#327b6e ;
+    padding: 2px 6px;
+    color: #ffffff;
+}
+.ss_left_col .form-table td .rs_popup-display .pop-image{
+    width: 100% !important;
+    max-width: 120px;
+}
+.ss_left_col .text-center{
+    text-align: center;
+}
+.ss_left_col .form-table td .rs_popup-display.highlight{
+ background:#327b6e ;   
+}
+.ss_left_col #loading-message{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    min-height: 350px;
+}
+.ss_left_col #loading-message h3{
+    color: #226c5e;
+}
+.ss_left_col #loading-message h3 span{
+    color: #bc1d2b;
+}
